@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marwa Abdla Ahmed | Backend Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+body{background:#0f0a1e;color:white}
+.navbar{display:flex;justify-content:space-between;align-items:center;background:#1a1232;padding:16px 40px;position:sticky;top:0;z-index:100;border-bottom:1px solid #2d1f5a}
+.logo{font-size:30px;font-weight:800} .logo span{color:#a855f7}
+.nav-links{display:flex;gap:20px;list-style:none} .nav-links a{color:#c4b5fd;text-decoration:none;font-size:13px}
+.btn-contact{border:2px solid #a855f7;color:#a855f7;padding:8px 22px;border-radius:25px;text-decoration:none;font-weight:700}
+.hero{display:flex;align-items:center;justify-content:space-between;padding:80px 40px;max-width:1200px;margin:auto;flex-wrap:wrap}
+.hero-text{max-width:600px} .hero-text h4{color:#a855f7;margin-bottom:10px}
+.hero-text h1{font-size:48px;line-height:1.1;margin-bottom:12px} .hero-text h1 span{color:#a855f7}
+.hero-text p{color:#a1a1aa;line-height:1.6;margin-bottom:24px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn-primary{background:#a855f7;color:white;padding:12px 26px;border-radius:28px;text-decoration:none;font-weight:700}
+.btn-outline{border:2px solid #3f3f46;color:white;padding:12px 26px;border-radius:28px;text-decoration:none}
+.hero-img{width:300px;height:300px;border-radius:50%;background:linear-gradient(135deg,#a855f7,#6d28d9);padding:5px}
+.hero-img div{width:100%;height:100%;border-radius:50%;background:#1a1232;display:flex;align-items:center;justify-content:center;font-size:90px}
+section{padding:60px 40px;max-width:1200px;margin:auto}
+h2.section-title{font-size:34px;margin-bottom:32px;text-align:center} h2.section-title span{color:#a855f7}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:14px}
+.skill-card{background:#1a1232;border:1px solid #2d1f5a;padding:18px;border-radius:14px;text-align:center;font-size:14px;font-weight:600;transition:.3s}
+.skill-card:hover{border-color:#a855f7;transform:translateY(-4px);box-shadow:0 0 20px rgba(168,85,247,.3)}
+.contact-box{background:#1a1232;border:1px solid #2d1f5a;border-radius:20px;padding:40px;text-align:center}
+.contact-box a{color:#a855f7;text-decoration:none;font-weight:700;font-size:18px}
+</style>
+</head>
+<body>
+<nav class="navbar">
+<div class="logo"><span>.</span>Marwa</div>
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<a href="#contact" class="btn-contact">Contact</a>
+</nav>
+<div class="hero" id="home">
+<div class="hero-text">
+<h4>Hello, I'm</h4>
+<h1>Marwa Abdla <br><span>Ahmed</span></h1>
+<h3 style="color:#e9d5ff;margin-bottom:12px">Backend Developer | .NET & Django</h3>
+<p>Passionate backend developer building scalable web apps with .NET, Python, SQL Server and modern web technologies.</p>
+<div class="btns">
+<a href="#projects" class="btn-primary">View My Work</a>
+<a href="mailto:marwaabdla929@gmail.com" class="btn-outline">marwaabdla929@gmail.com</a>
+</div>
+</div>
+<div class="hero-img"><div>👩‍💻</div></div>
+</div>
+<section id="skills">
+<h2 class="section-title">My <span>Skills</span></h2>
+<div class="skills">
+<div class="skill-card">OOP</div>
+<div class="skill-card">HTML</div>
+<div class="skill-card">JavaScript</div>
+<div class="skill-card">Python</div>
+<div class="skill-card">C#</div>
+<div class="skill-card">C++</div>
+<div class="skill-card">PHP</div>
+<div class="skill-card">.NET Web API</div>
+<div class="skill-card">.NET MVC</div>
+<div class="skill-card">MVC</div>
+<div class="skill-card">API</div>
+<div class="skill-card">SQL Server</div>
+<div class="skill-card">Mobile Application</div>
+<div class="skill-card">Django</div>
+</div>
+</section>
+<section id="contact">
+<div class="contact-box">
+<h2 class="section-title">Let's <span>Connect</span></h2>
+<p style="color:#a1a1aa;margin-bottom:16px">Available for freelance projects</p>
+<a href="mailto:marwaabdla929@gmail.com">marwaabdla929@gmail.com</a>
+</div>
+</section>
+</body>
+</html>
